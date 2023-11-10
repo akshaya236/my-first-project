@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       /* #a{grid-area:a1;}
+        #b{grid-area:b1;}
+        #c{grid-area:c1;}
+        #d{grid-area:d1;}
+        #e{grid-area:e1;}*/
+    .main{
+        color:white;
+        background-color: blue;
+        text-align:center;
+        font-size:30px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        box-shadow: 5px 5px 20px 20px black;
+        margin-top: 20px;
+        display:flex;
+        flex-direction:row;
+       /* grid-template-areas: 'a1 a1 a1 a1 a1 a1'
+        'b1 b1 b1 c1 c1 c1'
+        'd1 d1 d1 e1 e1 e1';*/
+    }
+    .main > div{
+        background-image: linear-gradient(rgb(165, 88, 88) rgb(81, 156, 81) rgb(149, 72, 85) rgb(89, 89, 148) rgb(145, 145, 67));
+        padding:20px;
+        margin:20px;
+        box-shadow:5px 5px 10px black;
+        border-style:inset;  
+        border-width: 12px;
+        border-color: black;
+        
+    } 
+    </style>
+<head>
+<body>
+    <div class="main">
+    <div id="a">
+        img src="https://images.pexels.com/photos/17058050/pexels-photo-17058050/free-photo-of-wood-light-sea-city.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" width="180"px height "180"px;
+    </div>
+    <div id="b">about us</div>
+    <div id="c">events</div>
+    <div id="d">service</div>
+    <div id="e">contact us</div>    
+</body>
+</html>

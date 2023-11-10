@@ -1,0 +1,29 @@
+#a{
+    background-colour:rgb(195, 20, 20);
+    colour:rgb(19, 192, 16);
+    font-size:30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+  }
+.c{
+    background-colour:rgb(213, 19, 136);
+    colour:rgb(171, 199, 15);
+    font-size:30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+ .b{
+    /*Box model*/
+    padding:20px;
+    /*margin-left:120px;
+      margin-right:120px;*/
+      margin: 20px;
+      border-radius: 120px;
+      border-width: 12px;
+      border-color: blue;
+      border-style: dashed;
+      /*box shadow*/
+      box-shadow: 10px 10px 20px black;
+      
+  }
+/*background-color:aqua;*/
+background-image:ur1("https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
